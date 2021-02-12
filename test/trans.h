@@ -1,1 +1,1 @@
-int transpose(int **trans, int **matrix, int n, int m);
+int trans(double **trans, double **matrix, int n, int m);

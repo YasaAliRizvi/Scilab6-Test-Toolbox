@@ -5,15 +5,15 @@
 int main()
 {
     int n=2,m=3;
-    int **matrix = (int **)malloc(n*sizeof(int*));
+    double **matrix = (double **)malloc(n*sizeof(double*));
     for(int i=0; i<n; i++)
     {
-        matrix[i] = (int*)malloc(m*sizeof(int));
+        matrix[i] = (double*)malloc(m*sizeof(double));
     }
-    int **trans = (int **)malloc(m*sizeof(int*));
+    double **ans = (double **)malloc(m*sizeof(double*));
 	for(int i=0; i<m; i++)
 	{
-		trans[i] = (int *)malloc(n*sizeof(int));
+		ans[i] = (double *)malloc(n*sizeof(double));
 	}
     int k=1;
     printf("Original Matrix :\n");
@@ -22,17 +22,17 @@ int main()
         for(int j=0; j<m; j++)
         {
             matrix[i][j] = k++;
-            printf("%d\t",matrix[i][j]);
+            printf("%lf\t",matrix[i][j]);
         }
         printf("\n");
     }
-    transpose(trans,matrix,n,m);
+    trans(ans,matrix,n,m);
     printf("Transposed Matrix:\n");
 	for(int i=0; i<m; i++)
 	{
 		for(int j=0; j<n; j++)
 		{
-			printf("%d\t",trans[i][j]);		
+			printf("%lf\t",ans[i][j]);		
 		}
 		printf("\n");
 	}

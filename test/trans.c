@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "trans.h"
 
-int transpose(int **trans, int **mat, int n, int m)
+int trans(double **trans, double **mat, int n, int m)
 {
 	for (int i=0; i<n; i++)
 	{

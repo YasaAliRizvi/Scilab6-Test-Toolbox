@@ -5,3 +5,15 @@ This toolbox overall demonstrates
 2. How to add a function defined in Scilab in Scilab
 3. How to write help for the added functions
 4. How to create a toolbox out of the above functions.
+
+
+
+---------------------------------------------------------------------------------------------
+Instructions to compile, build and execute a demo of "transpose" function in SciLab
+_____________________________________________________________________________________________
+1. If not already executed, run './run.sh' in 'test' directory to create the libraries for transpose function in the thirdparty directory
+2. If not built, then build the toolbox in Scilab using 'exec builder.sce'.
+3. Load the toolbox in Scilab using 'exec loader.sce'.
+4. Execute the "transpose" function in Scilab.
+	E.g. : y = transpose([1 2 3; 4 5 6]);
+5. See the help section for more information on the "transpose" function in Scilab, using 'help transpose'.
