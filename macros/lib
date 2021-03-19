@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scilablib name="test_toolboxlib">
-  <macro name="add" file="add.bin" md5="4e07dd442ca3ee15c8b7814a75e6b2de"/>
-  <macro name="multiply" file="multiply.bin" md5="c34f6a5460f45b27c7a9da8dbba8d694"/>
+  <macro name="add" file="add.bin" md5="ad888288a20b60dd06086d3d15e38db2"/>
+  <macro name="multiply" file="multiply.bin" md5="d56b655442b416c6d6909bab1d8b375e"/>
+  <macro name="transpose" file="transpose.bin" md5="64cac382bcf45db40a98884a9305d980"/>
 </scilablib>
